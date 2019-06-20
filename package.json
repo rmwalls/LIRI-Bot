@@ -1,0 +1,20 @@
+{
+  "name": "LIRI-Bot",
+  "version": "1.0.0",
+  "description": "Text-based SIRI sort of app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmwalls/LIRI-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmwalls/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/rmwalls/LIRI-Bot#readme"
+}
