@@ -18,12 +18,11 @@ var getSong = function(songName) {
         songs = data.tracks.items; 
         for (var i = 0; i < songs.length; i++) {
             console.log(i);
-            console.log(songs[1]);
-            console.log("album name: " + songs[i].album.name);
-            console.log("artist(s): " + songs[i].album.artists.name);
+            //console.log(songs[i]);
             console.log("song name: " + songs[i].name);
-            console.log("preview song: " + songs[i].preview_url);
-            
+            console.log("album name: " + songs[i].album.name);
+            console.log("artist(s): " + songs[i].artists[0].name);
+            console.log("preview song: " + songs[i].external_urls.spotify);
             console.log("----------------------------------------");
         } //end for
     }); //end search
