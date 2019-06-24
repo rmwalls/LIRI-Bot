@@ -6,30 +6,42 @@ const axios = require('axios');
 var moment = require('moment');
 moment().format();
 
-//process spotify requests
+//process Spotify requests
 var spotify = new Spotify(keys.spotify);
-var getArtistsNames = function(artist) {
-    return artist.name;
-}
+
+
 var getSong = function(songName) {
     spotify.search({ type: 'track', query: songName }, function(err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
         songs = data.tracks.items; 
-        for (var i = 0; i = songs.length; i++) {
+        for (var i = 0; i < songs.length; i++) {
             console.log(i);
-            console.log("artist(s): " + songs[i].artists.map(getArtistsNames));
+            console.log(songs[1]);
+            console.log("album name: " + songs[i].album.name);
+            console.log("artist(s): " + songs[i].album.artists.name);
             console.log("song name: " + songs[i].name);
             console.log("preview song: " + songs[i].preview_url);
-            console.log("album name: " + songs[i].album.name);
+            
             console.log("----------------------------------------");
         } //end for
     }); //end search
 } // end getSong
- 
+
+//process movie requests to Axios/OMDB
+
+var getMovie = function(dataPassed) {
+    var queryUrl = "http://www.omdbapi.com/?t="+ dataPassed +"&y=&plot=short&apikey=e349a361";
+    axios.get(queryUrl).then(function(response) {
+    console.log("The movie's data is: " + response.data.title);
+  })
+  
+} //end getMovie
+
+/*
 // Make a request for a user with a given ID
-axios.get('/user?ID=12345')
+axios.get('/user?ID=e349a361')
     .then(function (response) {
     // handle success
     console.log(response);
@@ -41,6 +53,7 @@ axios.get('/user?ID=12345')
     .finally(function () {
     // always executed
 });
+*/
 
 var doIt = function (caseChosen, dataPassed) {
     switch(caseChosen) {
@@ -51,18 +64,18 @@ var doIt = function (caseChosen, dataPassed) {
             getSong(dataPassed);
             break;
         case 'movie-this':
-            //code
+            getMovie(dataPassed);
             break;
         case 'do-what-it-says':
             //code
             break;
         default:
             console.log("Sorry, noone told LIRI how to do that.");
-    }
-}
+    } //end switch
+} // end doIt
 
 //what is the user asking for? which case, what data?
-var getCommand = function(arg3, arg4) {
-    doIt(arg3, arg4);
+var getCommand = function(arg2, arg3) {
+    doIt(arg2, arg3);
 }
-getCommand(process.argv[3], process.argv[4]);
+getCommand(process.argv[2], process.argv[3]);
