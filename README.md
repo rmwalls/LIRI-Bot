@@ -7,7 +7,7 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
 <ol>
 <li>JavaScript
 <li>Nodejs
-<li>Node Packages - these are listed in the package.json file, so you should be able to install then all with 'npm install'
+<li>Node Packages - these are listed in the package.json file, so you should be able to install then all with `npm install`
     <ol>
     <li>Axios
     <li>DOTENV
@@ -26,11 +26,11 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
 
 <h2>Instructions</h2>
 <h3>Access your computer's command line</h3>
-<img scr="images/1.jpg" alt="command line screen">
+<img src="images/1.jpg" alt="command line screen">
 
 <h3>To get onscreen instructions, type:</h3>
-<h4>node liri</h4>
-<img scr="../images/2.jpg" alt="Type node liri">
+<h4>`node liri`</h4>
+<img src="images/2.jpg" alt="Type node liri">
 
 <h3>Next, type one of the commands shown. For artists, songs or movies with multiple words, enclose in quotes for best results</h3>
-<img scr="/images/3.jpg" alt="Type node liri movie-this interstellar">
+<img src="images/3.jpg" alt="Type node liri movie-this interstellar">
