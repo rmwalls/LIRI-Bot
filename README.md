@@ -26,4 +26,4 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
 
 <h2>Instructions</h2>
 <h3>Access your computer's command line<h3>
-
+<img scr="1.jpg" alt="command line screen">
