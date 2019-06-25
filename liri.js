@@ -1,4 +1,4 @@
-    //requires
+//requires
 var fs = require("fs");
 require("dotenv").config();
 var keys = require("./keys.js");
@@ -11,7 +11,7 @@ moment().format();
 var findConcert = function(dataPassed) {
     var artist = dataPassed;
     axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
-        function (response) {
+        function (response) {   
             var bandInfo = response.data;
             for (var i = 0; i < response.data.length; i++) {
                 console.log("------------------ Event # " + i + "-----------------------");
@@ -20,11 +20,10 @@ var findConcert = function(dataPassed) {
                 console.log("CITY:    " + bandInfo[i].venue.city);
                 console.log("COUNTRY: "  + bandInfo[i].venue.country);
                 console.log("VENUE:   " + bandInfo[i].venue.name);
-            }
-        })
+            } //end for
+        }) //end function and get
         .catch(function (error) {
             if (error.response) {
-
                 // The request was made and the server responded with a status code
                 // that falls out of the range of 2xx
                 console.log("---------------Data---------------");
@@ -34,30 +33,26 @@ var findConcert = function(dataPassed) {
                 console.log("---------------Status---------------");
                 console.log(error.response.headers);
             } else if (error.request) {
-
                 // The request was made but no response was received
                 // `error.request` is an object that comes back with details pertaining to the error that occurred.
                 console.log(error.request);
-
             } else {
-
                 // Something happened in setting up the request that triggered an Error
                 console.log("Error", error.message);
             }
-
             console.log(error.config);
-        });
-}
+        }); //end catch
+} //end findConcert
 
 
 //process Spotify requests
 var spotify = new Spotify(keys.spotify);
 var getSong = function(dataPassed) {
     var songName = dataPassed;
-    console.log("***SONG IS*** " + songName);
-    if (songName === "") {
+        if (dataPassed === undefined) {
         songName = "Miss Grace";
     }
+    //console.log("***SONG IS*** " + songName);
     spotify.search({ type: 'track', query: songName }, function(err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
@@ -77,7 +72,7 @@ var getSong = function(dataPassed) {
 //process movie requests to Axios/OMDB
 var queryUrl;
 var getMovie = function(dataPassed) {
-    if (dataPassed === "") {
+    if (dataPassed === undefined) {
         queryUrl =  "http://www.omdbapi.com/?t=Mr+Nobody&y=&plot=short&apikey=e349a361";
     }
         queryUrl = "http://www.omdbapi.com/?t="+ dataPassed +"&y=&plot=short&apikey=e349a361";
@@ -128,6 +123,9 @@ var doIt = function (caseChosen, dataPassed) {
             findConcert(dataPassed);
             break;
         case 'spotify-this':
+                if (dataPassed === "") {
+                    dataPassed = "Miss Grace";
+                }
             getSong(dataPassed);
             break;
         case 'movie-this':
@@ -143,6 +141,7 @@ var doIt = function (caseChosen, dataPassed) {
 
 //what is the user asking for? which case, what data?
 var getCommand = function(arg2, arg3) {
+    console.log("arg2 is " + arg2 + " arg3 is " + arg3);
     doIt(arg2, arg3);
 }
 getCommand(process.argv[2], process.argv[3]);
@@ -158,4 +157,12 @@ for (var i = 3; i < nodeArgs.length; i++) {
       movieName += nodeArgs[i];
   
     }
-  }*/
+ 
+
+   //For Loop to search for songs with multiple words in title.
+   for (var i = 3; i < nodeArgs.length; i++) {
+    if (i >= 3 && i < nodeArgs.length) {
+        artist = artist +  "+" + nodeArgs[i];
+    } else {
+        artist = ""
+         }*/
