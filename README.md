@@ -25,12 +25,12 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
 </ol>
 
 <h2>Instructions</h2>
-<h3>Access your computer's command line<h3>
-<img scr="/images/1.jpg" alt="command line screen">
+<h3>Access your computer's command line</h3>
+<img scr="images/1.jpg" alt="command line screen">
 
 <h3>To get onscreen instructions, type:</h3>
 <h4>node liri</h4>
-<img scr="/images/2.jpg" alt="Type node liri">
+<img scr="../images/2.jpg" alt="Type node liri">
 
 <h3>Next, type one of the commands shown. For artists, songs or movies with multiple words, enclose in quotes for best results</h3>
 <img scr="/images/3.jpg" alt="Type node liri movie-this interstellar">
