@@ -1,4 +1,5 @@
     //requires
+var fs = require("fs");
 require("dotenv").config();
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
@@ -83,9 +84,6 @@ var getMovie = function(dataPassed) {
         //console.log("The query is " + queryUrl);
     axios.get(queryUrl).then(function(response) {
         var movieInfo = response.data;
-        //for (var i = 0; i < movieInfo.length; i++){
-        //console.log(movieInfo);
-        //console.log(i);
         console.log("THE MOVIE'S NAME IS:    " + movieInfo.Title);
         console.log("YEAR RELEASED:          " + movieInfo.Year);
         console.log("IMDB RATING:            " + response.data.imdbRating);
@@ -108,6 +106,21 @@ var getMovie = function(dataPassed) {
     });
 } //end getMovie
 
+//process the random command/file
+var readFile = function() {
+    fs.readFile("random.txt", "utf8", function(error, data) {
+        if (error) {
+            return console.log(error);
+        } //end if
+        console.log(data);
+        var dataArr = data.split(",");
+        if (dataArr.length == 2) {
+            doIt(dataArr[0], dataArr[1]);
+        } //end if
+
+    }); //end fs
+} //end => readFile
+
 
 var doIt = function (caseChosen, dataPassed) {
     switch(caseChosen) {
@@ -121,7 +134,7 @@ var doIt = function (caseChosen, dataPassed) {
             getMovie(dataPassed);
             break;
         case 'do-this':
-            //code
+            readFile();
             break;
         default:
             console.log("Sorry, noone told LIRI how to do that.");
