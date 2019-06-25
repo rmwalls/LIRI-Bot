@@ -7,6 +7,15 @@ const axios = require('axios');
 var moment = require('moment');
 moment().format();
 
+console.log("Type a command below to start, or Liri will say:")
+//At the command line users will type one of four node commands:
+// node liri concert-this <artist name>
+// node liri spotify-this <song name>
+// node liri movie-this <movie name>
+// node liri do-this
+// The doIt function will sort the request and data input and send the correct request
+// The correct response will then be shown to the user
+
 // process Concert request to Axios/Bands in Town
 var findConcert = function(dataPassed) {
     var artist = dataPassed;
@@ -137,6 +146,11 @@ var doIt = function (caseChosen, dataPassed) {
             break;
         default:
             console.log("Sorry, noone told LIRI how to do that.");
+            console.log("");
+            console.log("node liri concert-this <artist name>");
+            console.log("node liri spotify-this <song name>");
+            console.log("node liri movie-this <movie name>");
+            console.log("node liri do-this");
     } //end switch
 } // end doIt
 
