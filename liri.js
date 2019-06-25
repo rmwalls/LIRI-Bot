@@ -73,7 +73,8 @@ var getSong = function(dataPassed) {
 var queryUrl;
 var getMovie = function(dataPassed) {
     if (dataPassed === undefined) {
-        queryUrl =  "http://www.omdbapi.com/?t=Mr+Nobody&y=&plot=short&apikey=e349a361";
+        dataPassed = 'Mr+Nobody';
+//        queryUrl =  "http://www.omdbapi.com/?t=Mr+Nobody&y=&plot=short&apikey=e349a361";
     }
         queryUrl = "http://www.omdbapi.com/?t="+ dataPassed +"&y=&plot=short&apikey=e349a361";
         //console.log("The query is " + queryUrl);
@@ -141,7 +142,7 @@ var doIt = function (caseChosen, dataPassed) {
 
 //what is the user asking for? which case, what data?
 var getCommand = function(arg2, arg3) {
-    console.log("arg2 is " + arg2 + " arg3 is " + arg3);
+    //console.log("arg2 is " + arg2 + " arg3 is " + arg3);
     doIt(arg2, arg3);
 }
 getCommand(process.argv[2], process.argv[3]);
