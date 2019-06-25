@@ -4,10 +4,18 @@ require("dotenv").config();
 var keys = require("./keys.js");
 var Spotify = require('node-spotify-api');
 const axios = require('axios');
+const chalk = require('chalk');
 var moment = require('moment');
 moment().format();
 
-console.log("Type a command below to start, or Liri will say:")
+//other variables
+var artist; //for concerts
+var songName; //for spotify
+
+startLiri();
+function startLiri() {
+console.log(chalk.blue.bold("Type one of the commands below to start, or LIRI will say:")); //go to default case
+}
 //At the command line users will type one of four node commands:
 // node liri concert-this <artist name>
 // node liri spotify-this <song name>
@@ -18,12 +26,12 @@ console.log("Type a command below to start, or Liri will say:")
 
 // process Concert request to Axios/Bands in Town
 var findConcert = function(dataPassed) {
-    var artist = dataPassed;
+    artist = dataPassed;
     axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
         function (response) {   
             var bandInfo = response.data;
             for (var i = 0; i < response.data.length; i++) {
-                console.log("------------------ Event # " + i + "-----------------------");
+                console.log(chalk.magenta("------------------ Event # " + i + "-----------------------"));
                 console.log("ARTIST:  " + artist);
                 console.log("DATE:    " + moment(bandInfo[i].datetime).format("MM/DD/YYYY"));
                 console.log("CITY:    " + bandInfo[i].venue.city);
@@ -57,7 +65,7 @@ var findConcert = function(dataPassed) {
 //process Spotify requests
 var spotify = new Spotify(keys.spotify);
 var getSong = function(dataPassed) {
-    var songName = dataPassed;
+    songName = dataPassed;
         if (dataPassed === undefined) {
         songName = "Miss Grace";
     }
@@ -68,7 +76,7 @@ var getSong = function(dataPassed) {
         }
         songs = data.tracks.items; 
         for (var i = 0; i < songs.length; i++) {
-            console.log("------------------ Song # " + i + "-----------------------");
+            console.log(chalk.cyan("------------------ Song # " + i + "-----------------------"));
             //console.log(songs[i]);
             console.log("SONG NAME:  " + songs[i].name);
             console.log("ALBUM NAME: " + songs[i].album.name);
@@ -95,12 +103,11 @@ var getMovie = function(dataPassed) {
         console.log("ROTTEN TOMATOES RATING: " + movieInfo.Ratings[1].Value);
         console.log("COUNTRY:                " + movieInfo.Country);
         console.log("LANGUAGE:               " + movieInfo.Language);
-        console.log("BRIEF PLOT:             " +  movieInfo.Plot);
+        console.log("BRIEF PLOT:             " + movieInfo.Plot);
         console.log("MAIN ACTORS:            " + movieInfo.Actors);
         console.log("DIRECTOR:               " + movieInfo.Director);
         console.log("----------------------------------------");
         //} //end for
-    
   })
   .catch(function (error) {
     // handle error
@@ -145,7 +152,7 @@ var doIt = function (caseChosen, dataPassed) {
             readFile();
             break;
         default:
-            console.log("Sorry, noone told LIRI how to do that.");
+            console.log(chalk.bold("Sorry, noone told LIRI how to do that."));
             console.log("");
             console.log("node liri concert-this <artist name>");
             console.log("node liri spotify-this <song name>");
@@ -160,24 +167,3 @@ var getCommand = function(arg2, arg3) {
     doIt(arg2, arg3);
 }
 getCommand(process.argv[2], process.argv[3]);
-
-/*
-// Loop through all the words in the node argument
-// And do a little for-loop magic to handle the inclusion of "+"s
-for (var i = 3; i < nodeArgs.length; i++) {
-
-    if (i > 2 && i < nodeArgs.length) {
-      movieName = movieName + "+" + nodeArgs[i];
-    } else {
-      movieName += nodeArgs[i];
-  
-    }
- 
-
-   //For Loop to search for songs with multiple words in title.
-   for (var i = 3; i < nodeArgs.length; i++) {
-    if (i >= 3 && i < nodeArgs.length) {
-        artist = artist +  "+" + nodeArgs[i];
-    } else {
-        artist = ""
-         }*/

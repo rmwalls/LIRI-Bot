@@ -13,6 +13,7 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
     <li>DOTENV
     <li>Momentjs
     <li>Node-Spotify-api
+    <li>Chalk
     </ul>
 <li>APIs
     <ul>

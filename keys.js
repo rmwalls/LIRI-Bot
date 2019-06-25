@@ -1,4 +1,5 @@
-console.log('LIRI loaded');
+const chalk = require('chalk');
+console.log(chalk.gray('LIRI loaded'));
 
 exports.spotify = {
   id: process.env.SPOTIFY_ID,
