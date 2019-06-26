@@ -35,3 +35,11 @@ This App is the result of a homework assignment during UNC-Charlotte's Web Codin
 
 <h3>Next, type one of the commands shown. For artists, songs or movies with multiple words, enclose in quotes for best results</h3>
 <img src="images/3.jpg" alt="Type node liri movie-this interstellar">
+
+# What the Commands Do
+<ul>
+    <li>node liri concert-this <band name>  - (please enclose multiple words in quotes). A query will be sent to Bands In Town (via Axios) to locate upcoming live concerts. If concerts are found, the list will be displayed. At this time, the app cannot search a specific place. 
+    <li> node liri spotify-this <song name> - (please enclose multiple words in quotes). A query will be sent to Spotify to find the song you request. You are likely to get more results than you expect. As long as there <strong>are</strong> results, up to twenty will be displayed in an orderly manner for you. 
+    <li>node liri movie-this <movie name> - (please enclose multiple words in quotes). A query will be sent to the OMDB (via Axios) to find the movie you request. Available results will be displayed in an orderly manner for you. 
+    <li>node liri do-this - What could this be? Type it and get a random result! At this time, there is only ONE random request. Maybe more later!
+        </ul>
