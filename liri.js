@@ -12,10 +12,24 @@ moment().format();
 var artist; //for concerts
 var songName; //for spotify
 
+//my logging function to log to console, 
+//create (if doesn't exist) log file and append to it
+//you must have const fs = require("fs"); in your file
+
+function log(content) { //pass your content into the function
+	console.log(content); //console log the content
+	 	fs.appendFile("log.txt", content + "\n", err => { //append content to the log file
+            if (!err) {
+                //console.log("Append successful"); //if logging is successful, tell the console
+            }// end fs
+		}) // end if
+    } // end log
+
 startLiri();
 function startLiri() {
 console.log(chalk.blue.bold("Type one of the commands below to start, or LIRI will say:")); //go to default case
 }
+
 //At the command line users will type one of four node commands:
 // node liri concert-this <artist name>
 // node liri spotify-this <song name>
@@ -27,16 +41,17 @@ console.log(chalk.blue.bold("Type one of the commands below to start, or LIRI wi
 // process Concert request to Axios/Bands in Town
 var findConcert = function(dataPassed) {
     artist = dataPassed;
+    log(chalk.green("Concert Request Processed for " + chalk.blue.underline.bold(artist) + " at " + moment().format("MM/DD/YYYY, h:mm:ss a ")));
     axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
         function (response) {   
             var bandInfo = response.data;
             for (var i = 0; i < response.data.length; i++) {
-                console.log(chalk.magenta("------------------ Event # " + i + "-----------------------"));
-                console.log("ARTIST:  " + artist);
-                console.log("DATE:    " + moment(bandInfo[i].datetime).format("MM/DD/YYYY"));
-                console.log("CITY:    " + bandInfo[i].venue.city);
-                console.log("COUNTRY: "  + bandInfo[i].venue.country);
-                console.log("VENUE:   " + bandInfo[i].venue.name);
+                log(chalk.magenta("------------------ Event # " + i + "-----------------------"));
+                log("ARTIST:  " + artist);
+                log("DATE:    " + moment(bandInfo[i].datetime).format("MM/DD/YYYY"));
+                log("CITY:    " + bandInfo[i].venue.city);
+                log("COUNTRY: "  + bandInfo[i].venue.country);
+                log("VENUE:   " + bandInfo[i].venue.name);
             } //end for
         }) //end function and get
         .catch(function (error) {
@@ -69,19 +84,19 @@ var getSong = function(dataPassed) {
         if (dataPassed === undefined) {
         songName = "Miss Grace";
     }
-    //console.log("***SONG IS*** " + songName);
+	log(chalk.green("Song Request Processed for " + chalk.blue.underline.bold(songName ) + " at " + moment().format("MM/DD/YYYY, h:mm:ss a ")));
     spotify.search({ type: 'track', query: songName }, function(err, data) {
         if (err) {
             return console.log('Error occurred: ' + err);
         }
         songs = data.tracks.items; 
         for (var i = 0; i < songs.length; i++) {
-            console.log(chalk.cyan("------------------ Song # " + i + "-----------------------"));
+            log(chalk.cyan("------------------ Song # " + i + "-----------------------"));
             //console.log(songs[i]);
-            console.log("SONG NAME:  " + songs[i].name);
-            console.log("ALBUM NAME: " + songs[i].album.name);
-            console.log("ARTIST(S):  " + songs[i].artists[0].name);
-            console.log("HEAR SONG:  " + songs[i].external_urls.spotify);
+            log("SONG NAME:  " + songs[i].name);
+            log("ALBUM NAME: " + songs[i].album.name);
+            log("ARTIST(S):  " + songs[i].artists[0].name);
+            log("HEAR SONG:  " + songs[i].external_urls.spotify);
         } //end for
     }); //end search
 } // end getSong
@@ -94,19 +109,19 @@ var getMovie = function(dataPassed) {
 //        queryUrl =  "http://www.omdbapi.com/?t=Mr+Nobody&y=&plot=short&apikey=e349a361";
     }
         queryUrl = "http://www.omdbapi.com/?t="+ dataPassed +"&y=&plot=short&apikey=e349a361";
-        //console.log("The query is " + queryUrl);
+	log(chalk.green("Movie Request Processed for " + chalk.blue.underline.bold(dataPassed) + " at " + moment().format(" MM/DD/YYYY, h:mm:ss a ")));
     axios.get(queryUrl).then(function(response) {
         var movieInfo = response.data;
-        console.log("THE MOVIE'S NAME IS:    " + movieInfo.Title);
-        console.log("YEAR RELEASED:          " + movieInfo.Year);
-        console.log("IMDB RATING:            " + response.data.imdbRating);
-        console.log("ROTTEN TOMATOES RATING: " + movieInfo.Ratings[1].Value);
-        console.log("COUNTRY:                " + movieInfo.Country);
-        console.log("LANGUAGE:               " + movieInfo.Language);
-        console.log("BRIEF PLOT:             " + movieInfo.Plot);
-        console.log("MAIN ACTORS:            " + movieInfo.Actors);
-        console.log("DIRECTOR:               " + movieInfo.Director);
-        console.log("----------------------------------------");
+        log("THE MOVIE'S NAME IS:    " + movieInfo.Title);
+        log("YEAR RELEASED:          " + movieInfo.Year);
+        log("IMDB RATING:            " + response.data.imdbRating);
+        log("ROTTEN TOMATOES RATING: " + movieInfo.Ratings[1].Value);
+        log("COUNTRY:                " + movieInfo.Country);
+        log("LANGUAGE:               " + movieInfo.Language);
+        log("BRIEF PLOT:             " + movieInfo.Plot);
+        log("MAIN ACTORS:            " + movieInfo.Actors);
+        log("DIRECTOR:               " + movieInfo.Director);
+        log(chalk.cyan("----------------------------------------"));
         //} //end for
   })
   .catch(function (error) {
@@ -124,6 +139,7 @@ var readFile = function() {
         if (error) {
             return console.log(error);
         } //end if
+	log(chalk.green("Random Request Processed at " + moment().format("MM/DD/YYYY, h:mm:ss a ")));
         console.log(data);
         var dataArr = data.split(",");
         if (dataArr.length == 2) {
