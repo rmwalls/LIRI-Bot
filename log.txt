@@ -1,188 +1,12 @@
-[32mConcert Request Processed for [94m[4m[1mPink[22m[24m[32mat 06/27/2019, 4:56:21 pm [39m
-CITY:    London
-COUNTRY: United Kingdom
+[32mConcert Request Processed for [94m[4m[1mPink[22m[24m[32m at 06/27/2019, 6:21:04 pm [39m
 [35m------------------ Event # 0-----------------------[39m
-[35m[39m
-[35m------------------ Event # 1-----------------------[39m
-[35m[39m
 ARTIST:  Pink
+DATE:    06/29/2019
+COUNTRY: United Kingdom
+VENUE:   Wembley Stadium
+[35m------------------ Event # 1-----------------------[39m
+CITY:    London
 DATE:    06/30/2019
-
-CITY:    London
-COUNTRY: United Kingdom
-VENUE:   Wembley Stadium
-[35m------------------ Event # 2-----------------------[39m
-[35m[39m
-CITY:    Paris
-ARTIST:  Pink
-DATE:    07/03/2019
-
-COUNTRY: France
-VENUE:   La Defense Arena
-[35m------------------ Event # 3-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/05/2019
-
-CITY:    Cologne
-COUNTRY: Germany
-VENUE:   Rhein Energie Stadion
-[35m------------------ Event # 4-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/06/2019
-
-CITY:    Cologne
-COUNTRY: Germany
-VENUE:   Rhein Energie Stadion
-[35m------------------ Event # 5-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/08/2019
-
-CITY:    Hamburg
-COUNTRY: Germany
-VENUE:   Volksparkstadion
-[35m------------------ Event # 6-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/10/2019
-
-CITY:    Stuttgart
-COUNTRY: Germany
-VENUE:   Mercedes-Benz Arena
-[35m------------------ Event # 7-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/12/2019
-
-CITY:    Hannover
-COUNTRY: Germany
-VENUE:   HDI Arena
-[35m------------------ Event # 8-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/14/2019
-
-CITY:    Berlin
-COUNTRY: Germany
-VENUE:   Olympiastadion
-[35m------------------ Event # 9-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/20/2019
-
-CITY:    Warsaw
-COUNTRY: Poland
-VENUE:   PGE Narodowy Stadium
-[35m------------------ Event # 10-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/22/2019
-
-CITY:    Frankfurt Am Main
-VENUE:   Wembley Stadium
-ARTIST:  Pink
-DATE:    06/29/2019
-
-[35m------------------ Event # 11-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/24/2019
-
-CITY:    Wien
-COUNTRY: Austria
-VENUE:   Ernst Happel Stadium
-[35m------------------ Event # 12-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/26/2019
-
-CITY:    Munchen
-COUNTRY: Germany
-VENUE:   Olympiastadion Munchen
-[35m------------------ Event # 13-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/27/2019
-
-CITY:    Munchen
-COUNTRY: Germany
-VENUE:   Olympiastadion Munchen
-[35m------------------ Event # 14-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    07/30/2019
-
-CITY:    Zurich
-COUNTRY: Switzerland
-VENUE:   Letzigrund Stadium
-[35m------------------ Event # 15-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    08/03/2019
-
-CITY:    Stockholm
-COUNTRY: Sweden
-VENUE:   Tele2 Arena
-[35m------------------ Event # 16-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    08/05/2019
-
-CITY:    Oslo
-COUNTRY: Norway
-VENUE:   Telenor Arena
-[35m------------------ Event # 17-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    08/07/2019
-
-CITY:    Horsens
-COUNTRY: Denmark
-VENUE:   Stadium Casa Arena
-[35m------------------ Event # 18-----------------------[39m
-[35m[39m
-VENUE:   Commerzbank-Arena
-ARTIST:  Pink
-DATE:    08/09/2019
-
-CITY:    Ge
-COUNTRY: Germany
-VENUE:   VELTINS-Arena
-[35m------------------ Event # 19-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    08/11/2019
-
-CITY:    Den Haag
-COUNTRY: Netherlands
-VENUE:   Malieveld Pavillion
-[35m------------------ Event # 20-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    10/05/2019
-
-CITY:    Rio De Janeiro
-COUNTRY: Brazil
-VENUE:   Rock in Rio
-[35m------------------ Event # 21-----------------------[39m
-[35m[39m
-ARTIST:  Pink
-DATE:    11/02/2019
-
-CITY:    Austin
-COUNTRY: United States
-VENUE:   Circuit Of the Americas
-COUNTRY: Germany
-[32mConcert Request Processed for [94m[4m[1mPink[22m[24m[32mat 06/27/2019, 5:06:13 pm [39m
-[35m------------------ Event # 0-----------------------[39m
-DATE:    06/29/2019
-CITY:    London
-COUNTRY: United Kingdom
-VENUE:   Wembley Stadium
-[35m------------------ Event # 1-----------------------[39m
-ARTIST:  Pink
 CITY:    London
 COUNTRY: United Kingdom
 VENUE:   Wembley Stadium
@@ -233,23 +57,23 @@ ARTIST:  Pink
 DATE:    07/20/2019
 CITY:    Warsaw
 COUNTRY: Poland
-VENUE:   PGE Narodowy Stadium
 [35m------------------ Event # 10-----------------------[39m
-DATE:    06/30/2019
+ARTIST:  Pink
 DATE:    07/22/2019
 CITY:    Frankfurt Am Main
 COUNTRY: Germany
 VENUE:   Commerzbank-Arena
+VENUE:   PGE Narodowy Stadium
 [35m------------------ Event # 11-----------------------[39m
-ARTIST:  Pink
 DATE:    07/24/2019
-CITY:    Wien
+ARTIST:  Pink
 COUNTRY: Austria
+CITY:    Wien
 VENUE:   Ernst Happel Stadium
 [35m------------------ Event # 12-----------------------[39m
 ARTIST:  Pink
-DATE:    07/26/2019
 CITY:    Munchen
+DATE:    07/26/2019
 COUNTRY: Germany
 VENUE:   Olympiastadion Munchen
 [35m------------------ Event # 13-----------------------[39m
@@ -267,8 +91,8 @@ VENUE:   Letzigrund Stadium
 [35m------------------ Event # 15-----------------------[39m
 ARTIST:  Pink
 DATE:    08/03/2019
-CITY:    Stockholm
 COUNTRY: Sweden
+CITY:    Stockholm
 VENUE:   Tele2 Arena
 [35m------------------ Event # 16-----------------------[39m
 ARTIST:  Pink
@@ -307,431 +131,134 @@ CITY:    Austin
 COUNTRY: United States
 VENUE:   Circuit Of the Americas
 ARTIST:  Pink
-ARTIST:  Pink
-[32mSong Request Processed for [94m[4m[1mLove shack[22m[24m[32mat 06/27/2019, 5:07:25 pm [39m
-[36m------------------ Song # 0-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Cosmic Thing
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/4W4wYHtsrgDiivRASVOINL
-[36m------------------ Song # 1-----------------------[39m
-SONG NAME:  Love Shack - Edit
-ALBUM NAME: Love Shack [edit] / Channel Z [Digital 45]
-HEAR SONG:  https://open.spotify.com/track/64B4UbGRLtGRBtiN2m8OvF
-ARTIST(S):  The B-52's
-ALBUM NAME: The Shack: Music From and Inspired By the Original Motion Picture
-ARTIST(S):  NEEDTOBREATHE
-[36m------------------ Song # 2-----------------------[39m
-HEAR SONG:  https://open.spotify.com/track/4ahfLYf0VLVVvN3sdOyQN2
-SONG NAME:  Love Shack (Glee Cast Version)
-[36m------------------ Song # 3-----------------------[39m
-SONG NAME:  HARD LOVE (feat. Lauren Daigle)
-HEAR SONG:  https://open.spotify.com/track/4s9NwzzqAtP8uQm1pOgtPk
-SONG NAME:  Love Goes On
-ALBUM NAME: Love Shack (Glee Cast Version)
-ALBUM NAME: The Shack: Music From and Inspired By the Original Motion Picture
-HEAR SONG:  https://open.spotify.com/track/669OgQDprZRKWuT42GKgHD
-[36m------------------ Song # 4-----------------------[39m
-[36m------------------ Song # 5-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Time Capsule
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/1CcBP0gzaQowmocBJjtuWx
-[36m------------------ Song # 6-----------------------[39m
-SONG NAME:  Love Shack - Edit
-ALBUM NAME: 80's The Collection
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/5rbk0tYdKHA3DtQi8eSX4P
-[36m------------------ Song # 7-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Scooby-Doo 2: Monsters Unleashed
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7FR1MD74LYY1mcwpxdUStu
-[36m------------------ Song # 8-----------------------[39m
-SONG NAME:  Dada Say
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/1b1NoTSTdHjI9Dcc2f9tV5
-[36m------------------ Song # 9-----------------------[39m
-SONG NAME:  Lost At Sea
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/3zHy60HmPFiWo6uXeDwNnL
-[36m------------------ Song # 10-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: 80s Rock Classics
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7a0cXIwbqDTnpoTeh4eAkQ
-[36m------------------ Song # 11-----------------------[39m
-SONG NAME:  Empress Love
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/4WkyVIs03rrPaJQK0Kp3xD
-[36m------------------ Song # 12-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Nude On The Moon: The B-52's Anthology
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7yt937OVGcJMTQMdyvvzuN
-[36m------------------ Song # 13-----------------------[39m
-SONG NAME:  Love Shack - Live
-ALBUM NAME: With The Wild Crowd! Live In Athens, GA
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/0QWFYX1AF4dPARxiHt262Q
-[36m------------------ Song # 14-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Pickin' and Singin' The Biggest Hits of the 1980s Vol. 1
-ARTIST(S):  Pickin' On Series
-HEAR SONG:  https://open.spotify.com/track/2GVqNcKUURTmFNoIKhfNeT
-[36m------------------ Song # 15-----------------------[39m
-SONG NAME:  Conversation
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/2coZevsu9JjOS9WhrtVkDa
-[36m------------------ Song # 16-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Oldies 80's
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7HK2pLuaEPZpUTIRiBQo7j
-[36m------------------ Song # 17-----------------------[39m
-SONG NAME:  Is There Anybody Here That Love My Jesus
-ALBUM NAME: Shack-man
-ARTIST(S):  Martin & Wood Medeski
-HEAR SONG:  https://open.spotify.com/track/6gaqAOIxUYjt1harq02zPp
-[36m------------------ Song # 18-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: It Is What It Is
-ARTIST(S):  Brian Bromberg
-HEAR SONG:  https://open.spotify.com/track/33B7sFqcmRYAWog7AnmybP
-[36m------------------ Song # 19-----------------------[39m
-SONG NAME:  Love Shack - Live in Minneapolis, MN
-ALBUM NAME: Live On The Inside
-ARTIST(S):  Sugarland
-HEAR SONG:  https://open.spotify.com/track/0ivCXQGxum3XFe4yOZ2HH9
-ARTIST(S):  Kelly Clarkson
-ARTIST(S):  Glee Cast
-[32mSong Request Processed for [94m[4m[1mLove shack[22m[24m[32mat 06/27/2019, 5:08:05 pm [39m
-[36m------------------ Song # 0-----------------------[39m
-ALBUM NAME: Cosmic Thing
-HEAR SONG:  https://open.spotify.com/track/4W4wYHtsrgDiivRASVOINL
-[36m------------------ Song # 1-----------------------[39m
-SONG NAME:  Love Shack - Edit
-ALBUM NAME: Love Shack [edit] / Channel Z [Digital 45]
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/64B4UbGRLtGRBtiN2m8OvF
-[36m------------------ Song # 2-----------------------[39m
-SONG NAME:  HARD LOVE (feat. Lauren Daigle)
-ALBUM NAME: The Shack: Music From and Inspired By the Original Motion Picture
-ARTIST(S):  NEEDTOBREATHE
-HEAR SONG:  https://open.spotify.com/track/4ahfLYf0VLVVvN3sdOyQN2
-[36m------------------ Song # 3-----------------------[39m
-SONG NAME:  Love Shack (Glee Cast Version)
-ALBUM NAME: Love Shack (Glee Cast Version)
-SONG NAME:  Love Shack
-HEAR SONG:  https://open.spotify.com/track/4s9NwzzqAtP8uQm1pOgtPk
-[36m------------------ Song # 4-----------------------[39m
-SONG NAME:  Love Goes On
-ALBUM NAME: The Shack: Music From and Inspired By the Original Motion Picture
-ARTIST(S):  Kelly Clarkson
-HEAR SONG:  https://open.spotify.com/track/669OgQDprZRKWuT42GKgHD
-[36m------------------ Song # 5-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Time Capsule
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/1CcBP0gzaQowmocBJjtuWx
-[36m------------------ Song # 6-----------------------[39m
-SONG NAME:  Love Shack - Edit
-ALBUM NAME: 80's The Collection
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/5rbk0tYdKHA3DtQi8eSX4P
-[36m------------------ Song # 7-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Scooby-Doo 2: Monsters Unleashed
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7FR1MD74LYY1mcwpxdUStu
-[36m------------------ Song # 8-----------------------[39m
-SONG NAME:  Dada Say
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/1b1NoTSTdHjI9Dcc2f9tV5
-[36m------------------ Song # 9-----------------------[39m
-SONG NAME:  Lost At Sea
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/3zHy60HmPFiWo6uXeDwNnL
-[36m------------------ Song # 10-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: 80s Rock Classics
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7a0cXIwbqDTnpoTeh4eAkQ
-[36m------------------ Song # 11-----------------------[39m
-SONG NAME:  Empress Love
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/4WkyVIs03rrPaJQK0Kp3xD
-[36m------------------ Song # 12-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Nude On The Moon: The B-52's Anthology
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7yt937OVGcJMTQMdyvvzuN
-[36m------------------ Song # 13-----------------------[39m
-SONG NAME:  Love Shack - Live
-ALBUM NAME: With The Wild Crowd! Live In Athens, GA
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/0QWFYX1AF4dPARxiHt262Q
-[36m------------------ Song # 14-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Pickin' and Singin' The Biggest Hits of the 1980s Vol. 1
-ARTIST(S):  Pickin' On Series
-HEAR SONG:  https://open.spotify.com/track/2GVqNcKUURTmFNoIKhfNeT
-[36m------------------ Song # 15-----------------------[39m
-SONG NAME:  Conversation
-ALBUM NAME: The Love Shack
-ARTIST(S):  The Steppas
-HEAR SONG:  https://open.spotify.com/track/2coZevsu9JjOS9WhrtVkDa
-[36m------------------ Song # 16-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: Oldies 80's
-ARTIST(S):  The B-52's
-HEAR SONG:  https://open.spotify.com/track/7HK2pLuaEPZpUTIRiBQo7j
-[36m------------------ Song # 17-----------------------[39m
-SONG NAME:  Is There Anybody Here That Love My Jesus
-ALBUM NAME: Shack-man
-ARTIST(S):  Martin & Wood Medeski
-HEAR SONG:  https://open.spotify.com/track/6gaqAOIxUYjt1harq02zPp
-[36m------------------ Song # 18-----------------------[39m
-SONG NAME:  Love Shack
-ALBUM NAME: It Is What It Is
-ARTIST(S):  Brian Bromberg
-HEAR SONG:  https://open.spotify.com/track/33B7sFqcmRYAWog7AnmybP
-[36m------------------ Song # 19-----------------------[39m
-SONG NAME:  Love Shack - Live in Minneapolis, MN
-ALBUM NAME: Live On The Inside
-ARTIST(S):  Sugarland
-HEAR SONG:  https://open.spotify.com/track/0ivCXQGxum3XFe4yOZ2HH9
-ARTIST(S):  Glee Cast
-ARTIST(S):  The B-52's
-[32mSong Request Processed for [94m[4m[1mMiss Grace[22m[24m[32mat 06/27/2019, 5:08:19 pm [39m
-[36m------------------ Song # 0-----------------------[39m
-SONG NAME:  Call the Shots - From the Motion Picture "Miss Bala"
-HEAR SONG:  https://open.spotify.com/track/0omgsCxtyJoNhm0e5h9yPv
-[36m------------------ Song # 1-----------------------[39m
-SONG NAME:  Miss Me
-ALBUM NAME: Afraid of the Dark
-ARTIST(S):  Caroline Grace
-HEAR SONG:  https://open.spotify.com/track/4PlG3fRrnzh0jrFCnYXrv1
-[36m------------------ Song # 2-----------------------[39m
-SONG NAME:  You're Gonna Miss This
-ALBUM NAME: Directions Home (Songs We Love, Songs You Know)
-ARTIST(S):  Point Of Grace
-HEAR SONG:  https://open.spotify.com/track/0S8CKAHarMn66HSd7Sz4M1
-[36m------------------ Song # 3-----------------------[39m
-SONG NAME:  Wish I Didn't Miss You - Recorded At RAK Studios, London
-ALBUM NAME: Spotify Singles
-ARTIST(S):  Grace Carter
-[36m------------------ Song # 4-----------------------[39m
-SONG NAME:  Miss You
-ALBUM NAME: In the Grace of Your Love
-ALBUM NAME: Call the Shots (From the Motion Picture "Miss Bala")
-ARTIST(S):  The Rapture
-ARTIST(S):  Leslie Grace
-HEAR SONG:  https://open.spotify.com/track/3MBQiGSAdV3tHlAAHsajvE
-HEAR SONG:  https://open.spotify.com/track/4BytrGTYKrYVBmMDJzug1P
-[36m------------------ Song # 5-----------------------[39m
-ALBUM NAME: Slave To The Rhythm
-SONG NAME:  Ladies And Gentleman: Miss Grace Jones
-HEAR SONG:  https://open.spotify.com/track/5XG3Ikf8hPDRW9dI98L7ES
-ARTIST(S):  Grace Jones
-SONG NAME:  Grace
-[36m------------------ Song # 6-----------------------[39m
-ARTIST(S):  Miss Kittin
-ALBUM NAME: BatBox
-[36m------------------ Song # 7-----------------------[39m
-HEAR SONG:  https://open.spotify.com/track/7sXqp0oG6BVl9sAR6wxosv
-ALBUM NAME: In The Grace Of Your Love - Deluxe Edition
-SONG NAME:  Miss You
-HEAR SONG:  https://open.spotify.com/track/7qSEeiWFYF0TaJEZhvUvoz
-ARTIST(S):  The Rapture
-SONG NAME:  I Miss U Grace
-ALBUM NAME: I Miss U Grace
-[36m------------------ Song # 8-----------------------[39m
-HEAR SONG:  https://open.spotify.com/track/5Xk5Fvk1fsk8SckcLLgcAl
-SONG NAME:  #5
-ALBUM NAME: Love It Need It Miss It Want It
-ARTIST(S):  R.W. Grace
-HEAR SONG:  https://open.spotify.com/track/0okIPB9yRsbB3W5swvdsvA
-[36m------------------ Song # 10-----------------------[39m
-SONG NAME:  Grace
-ALBUM NAME: Steampunk Experiment: Mechanical Cabaret
-ARTIST(S):  Miss Kitten
-HEAR SONG:  https://open.spotify.com/track/0PhhJYJX32qvCKB3BrWxUG
-[36m------------------ Song # 11-----------------------[39m
-SONG NAME:  Miss Grace Jones - Toney D's Blue Parrot ix
-ALBUM NAME: Miss Grace Jones
-ARTIST(S):  Frantic
-HEAR SONG:  https://open.spotify.com/track/6i64BJ4z5dyC3v22ICuLoX
-[36m------------------ Song # 12-----------------------[39m
-SONG NAME:  Miss You
-ALBUM NAME: Go Time: Brooklyn 2
-ARTIST(S):  Grace Kelly
-HEAR SONG:  https://open.spotify.com/track/3RIGZvTh3J8LNl0G5p1Hxl
-[36m------------------ Song # 13-----------------------[39m
-SONG NAME:  Miss Grace Jones - BKL Smoking Mix
-ALBUM NAME: Miss Grace Jones
-ARTIST(S):  Frantic
-HEAR SONG:  https://open.spotify.com/track/1UN2VI1MFR2GvFilfECT13
-[36m------------------ Song # 14-----------------------[39m
-SONG NAME:  I Miss You
-ALBUM NAME: A Moment Of Grace
-ARTIST(S):  Jonathon Lee
-HEAR SONG:  https://open.spotify.com/track/11BfjiFGidQ4bFStaISnUY
-[36m------------------ Song # 15-----------------------[39m
-SONG NAME:  Miss You (Deep House Remix)
-ALBUM NAME: Go Time: Brooklyn 2
-ARTIST(S):  Grace Kelly
-HEAR SONG:  https://open.spotify.com/track/746LDZs2VIEGDzROWeRXt9
-[36m------------------ Song # 16-----------------------[39m
-SONG NAME:  Don't Want to Miss out on Love
-ALBUM NAME: Oblivious
-ARTIST(S):  Kybaby
-HEAR SONG:  https://open.spotify.com/track/2mDztFvIrn9pUL7BULOdMJ
-[36m------------------ Song # 17-----------------------[39m
-SONG NAME:  Miss You, I Miss You
-ALBUM NAME: PROJECT [207-61]_4 Page
-ARTIST(S):  Grace
-HEAR SONG:  https://open.spotify.com/track/69bxtzVFQVUdviDl3BsAuS
-[36m------------------ Song # 18-----------------------[39m
-SONG NAME:  Miss Grace Jones - Instrumental Mix
-ALBUM NAME: Miss Grace Jones
-HEAR SONG:  https://open.spotify.com/track/1cuIwLRdiS8Wdin4vGcq3y
-ARTIST(S):  Frantic
-[36m------------------ Song # 19-----------------------[39m
-SONG NAME:  I Don't Miss You
-ALBUM NAME: Far Off Grace
-ARTIST(S):  Vanden Plas
-HEAR SONG:  https://open.spotify.com/track/72SQOqGyNTU6fhk529x17g
-ARTIST(S):  Yung Kaye
-[36m------------------ Song # 9-----------------------[39m
-[32mMovie Request Processed for [94m[4m[1mMr+Nobody[22m[24m[32mat  06/27/2019, 5:09:32 pm [39m
-THE MOVIE'S NAME IS:    Mr. Nobody
-YEAR RELEASED:          2009
-IMDB RATING:            7.8
-COUNTRY:                Belgium, Germany, Canada, France, USA, UK
-ROTTEN TOMATOES RATING: 67%
-LANGUAGE:               English, Mohawk
-BRIEF PLOT:             A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-DIRECTOR:               Jaco Van Dormael
+[32mMovie Request Processed for [94m[4m[1minterstellar[22m[24m[32m at  06/28/2019, 10:39:42 am [39m
+THE MOVIE'S NAME IS:    Interstellar
+IMDB RATING:            8.6
+YEAR RELEASED:          2014
+COUNTRY:                USA, UK, Canada
+ROTTEN TOMATOES RATING: 72%
+BRIEF PLOT:             A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.
+MAIN ACTORS:            Ellen Burstyn, Matthew McConaughey, Mackenzie Foy, John Lithgow
+DIRECTOR:               Christopher Nolan
 [36m----------------------------------------[39m
-MAIN ACTORS:            Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-[32mMovie Request Processed for [94m[4m[1mMr+Nobody[22m[24m[32m at  06/27/2019, 5:10:05 pm [39m
-THE MOVIE'S NAME IS:    Mr. Nobody
-YEAR RELEASED:          2009
-IMDB RATING:            7.8
-ROTTEN TOMATOES RATING: 67%
-COUNTRY:                Belgium, Germany, Canada, France, USA, UK
-LANGUAGE:               English, Mohawk
-BRIEF PLOT:             A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-MAIN ACTORS:            Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-DIRECTOR:               Jaco Van Dormael
+LANGUAGE:               English
+[32mMovie Request Processed for [94m[4m[1manimal house[22m[24m[32m at  06/28/2019, 10:45:14 am [39m
+THE MOVIE'S NAME IS:    Animal House
+YEAR RELEASED:          2015
+IMDB RATING:            N/A
+[32mMovie Request Processed for [94m[4m[1mstar trek[22m[24m[32m at  06/28/2019, 10:45:58 am [39m
+THE MOVIE'S NAME IS:    Star Trek
+ROTTEN TOMATOES RATING: 94%
+COUNTRY:                USA, Germany
+LANGUAGE:               English
+BRIEF PLOT:             The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.
+MAIN ACTORS:            Chris Pine, Zachary Quinto, Leonard Nimoy, Eric Bana
+DIRECTOR:               J.J. Abrams
 [36m----------------------------------------[39m
-[32mRandom Request Processed at 06/27/2019, 5:11:32 pm [39m
-[32mSong Request Processed for [94m[4m[1m"I Want it That Way"[22m[24m[32m at 06/27/2019, 5:11:32 pm [39m
+YEAR RELEASED:          2009
+IMDB RATING:            8.0
+[32mMovie Request Processed for [94m[4m[1mwrath of kahn[22m[24m[32m at  06/28/2019, 10:46:23 am [39m
+THE MOVIE'S NAME IS:    undefined
+IMDB RATING:            undefined
+YEAR RELEASED:          undefined
+[32mSong Request Processed for [94m[4m[1mwalking on sunshine[22m[24m[32m at 06/28/2019, 10:46:56 am [39m
 [36m------------------ Song # 0-----------------------[39m
-ALBUM NAME: The Hits--Chapter One
-HEAR SONG:  https://open.spotify.com/track/6e40mgJiCid5HRAGrbpGA6
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: Katrina & The Waves
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/05wIrZSwuaVWhcv5FfqeH0
 [36m------------------ Song # 1-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Millennium
-ARTIST(S):  Backstreet Boys
-HEAR SONG:  https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: Wedding Party
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/36d7e7FKP0JqHUjXyYGkQi
 [36m------------------ Song # 2-----------------------[39m
-SONG NAME:  I Want It That Way - Reimagined
-ALBUM NAME: I Want It That Way (Reimagined)
-ARTIST(S):  Backstreet Boys
-HEAR SONG:  https://open.spotify.com/track/62KnDRUq6CBcT7Bqb9IHKV
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: 80s Summer
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/4F5JPUODHSEaVZVVL79R2d
 [36m------------------ Song # 3-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Covers Part IV
-ARTIST(S):  Anthem Lights
-HEAR SONG:  https://open.spotify.com/track/3Ww6kEWxLh4Ub4WPJ9hMtA
-[36m------------------ Song # 4-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: I Want It That Way
-ARTIST(S):  Mick Jensen
-HEAR SONG:  https://open.spotify.com/track/0ympGdYdVlZ8zo6irdjMvd
-[36m------------------ Song # 5-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Under the Covers, Vol. 3
-ARTIST(S):  Jess and Gabriel
-HEAR SONG:  https://open.spotify.com/track/52FgeDoHydoWZbFGgxwCdH
-[36m------------------ Song # 6-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Beautiful Dreams
-ARTIST(S):  Tyler and Mark
-HEAR SONG:  https://open.spotify.com/track/7k52T0b1v9ktm2gJwlO5yy
-[36m------------------ Song # 7-----------------------[39m
-SONG NAME:  Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-ALBUM NAME: Poodle Hat
-ARTIST(S):  "Weird Al" Yankovic
-HEAR SONG:  https://open.spotify.com/track/4vHb50VkxDzHYwLiHfWczK
-[36m------------------ Song # 8-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Punk Goes Pop
-ARTIST(S):  Dynamite Boy
-HEAR SONG:  https://open.spotify.com/track/0X5ygHsca3pJ3KErPsXhGc
-SONG NAME:  I Want It That Way
-[36m------------------ Song # 9-----------------------[39m
-ALBUM NAME: 90 Sweet 90s Hits!
-ARTIST(S):  Backstreet Boys
-HEAR SONG:  https://open.spotify.com/track/1zCiqxhampG4dcC7HEqPu5
-[36m------------------ Song # 10-----------------------[39m
-SONG NAME:  Bye Bye Bye / I Want It That Way (Glee Cast Version)
-ALBUM NAME: Bye Bye Bye / I Want It That Way (Glee Cast Version)
+SONG NAME:  Halo / Walking On Sunshine (Glee Cast Version)
+ALBUM NAME: Halo / Walking On Sunshine (Glee Cast Version)
+HEAR SONG:  https://open.spotify.com/track/04gTvkivzArTTMG6ykrwep
 ARTIST(S):  Glee Cast
-HEAR SONG:  https://open.spotify.com/track/3t7m7AzV2ntuI9fIT6KREP
+[36m------------------ Song # 4-----------------------[39m
+SONG NAME:  Walking On Sunshine - Original Version
+ARTIST(S):  Aly & AJ
+HEAR SONG:  https://open.spotify.com/track/09BvvHet0SXvdZKAyUzIWk
+[36m------------------ Song # 5-----------------------[39m
+ALBUM NAME: Walking On Sunshine
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: Into The Rush
+ARTIST(S):  Gardiner Sisters
+[36m------------------ Song # 6-----------------------[39m
+HEAR SONG:  https://open.spotify.com/track/1O91HwI2LMA8RglnZ2hbNH
+SONG NAME:  Walking on Sunshine
+ARTIST(S):  Sam Amidon
+ALBUM NAME: BrooklynVegan Presents Sun Salute: A Tribute to Katrina & The Waves and Walking on Sunshine
+SONG NAME:  Walking on Sunshine - 2004 Version
+[36m------------------ Song # 7-----------------------[39m
+HEAR SONG:  https://open.spotify.com/track/5yGs5BtZC9uN1VW0lKfgwz
+ALBUM NAME: Walking on Sunshine (2004 Version)
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/4pxfRRSEn8EfgZWcN3IgL8
+SONG NAME:  Walking On Sunshine
+[36m------------------ Song # 8-----------------------[39m
+ALBUM NAME: 80's Hits
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/2NynOElNo3XKrYILRLHnJL
+[36m------------------ Song # 9-----------------------[39m
+SONG NAME:  Walking on Sunshine
+ALBUM NAME: Walking on Sunshine (Original Motion Picture Soundtrack)
+ARTIST(S):  Leona Lewis
+HEAR SONG:  https://open.spotify.com/track/1iNq1La77twkspVJIdFijD
+[36m------------------ Song # 10-----------------------[39m
+SONG NAME:  Walking On Sunshine (25th Anniversary) - 2010 Remaster
+ALBUM NAME: The Best of Katrina and the Waves
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/38g57FqLPnNh3y9XdAfn2h
 [36m------------------ Song # 11-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: I Want It That Way
-ARTIST(S):  Steel Panther
-HEAR SONG:  https://open.spotify.com/track/0448cNUvZGCAlUpIPO5kdY
+SONG NAME:  Walking on Sunshine
+ALBUM NAME: Walking on Sunshine
+ARTIST(S):  Youngcuzzoo
+HEAR SONG:  https://open.spotify.com/track/5ShSDc9LicS9T3o6fvP0Bx
 [36m------------------ Song # 12-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: NKOTBSB
-ARTIST(S):  Backstreet Boys
-HEAR SONG:  https://open.spotify.com/track/2KMwtsWwL5QDtSpm814tju
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: J.Lo
+ARTIST(S):  Jennifer Lopez
+HEAR SONG:  https://open.spotify.com/track/6BqemgZaWt7VQxCU7dHrcj
 [36m------------------ Song # 13-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Cover Sessions, Vol. 2
-ARTIST(S):  Boyce Avenue
-HEAR SONG:  https://open.spotify.com/track/16COzZ7jCVn3O8b8ZgviOx
+SONG NAME:  I'm Walking on Sunshine
+ALBUM NAME: Eighties Music School: 80's Rock & Post Disco Best Songs
+ARTIST(S):  Carl Wave
+HEAR SONG:  https://open.spotify.com/track/6mht0HfWSayOESGoaXEShd
 [36m------------------ Song # 14-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Nu Funk
-ARTIST(S):  Scary Pockets
-HEAR SONG:  https://open.spotify.com/track/4IWQXV01Lp0wsXCXo09EBr
+SONG NAME:  Walking on Sunshine
+ALBUM NAME: Best of the Best
+ARTIST(S):  Jazzystics
+HEAR SONG:  https://open.spotify.com/track/05xjXvS4SJkO4hoiZWfIGW
 [36m------------------ Song # 15-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: I Want It That Way
-ARTIST(S):  Manuel Costa
-HEAR SONG:  https://open.spotify.com/track/4Sp4RxkWukxqJykl0ySNQi
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: Besides
+ARTIST(S):  Pomplamoose
+HEAR SONG:  https://open.spotify.com/track/1ScjfK4x6R3KCkY6hWkPXW
 [36m------------------ Song # 16-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Timeless Love
-ARTIST(S):  Love Hits On Piano
-HEAR SONG:  https://open.spotify.com/track/6o4G9XVj3ikl0W1BNUlH4u
+SONG NAME:  Walking On Sunshine
+ALBUM NAME: Songs We Didn't Write
+ARTIST(S):  Ghoti Hook
+HEAR SONG:  https://open.spotify.com/track/23nrhvs9Uibf0yzesciZvo
 [36m------------------ Song # 17-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: I Want It That Way
-ARTIST(S):  Yshop
-HEAR SONG:  https://open.spotify.com/track/0sRt44NXdLVqYeD2TAm1A5
+SONG NAME:  Walking on Sunshine
+ALBUM NAME: Pickin' On the Biggest Hits of the 1980s Vol. 2
+ARTIST(S):  Pickin' On Series
+HEAR SONG:  https://open.spotify.com/track/3PAwXy3RYt2mm7nDg0SVCk
 [36m------------------ Song # 18-----------------------[39m
-SONG NAME:  I Want It That Way
-ALBUM NAME: Selfies on Kodachrome
-ARTIST(S):  Scott Bradlee's Postmodern Jukebox
-HEAR SONG:  https://open.spotify.com/track/1Le3uYU5NU9cXXtYeSWnEM
+SONG NAME:  Walking on Sunshine (Rerecorded)
+ALBUM NAME: Katrina and the Waves
+ARTIST(S):  Katrina & The Waves
+HEAR SONG:  https://open.spotify.com/track/26RQVemA7ySsXOY5V7bdVR
 [36m------------------ Song # 19-----------------------[39m
-SONG NAME:  Ebay (Parody of "I Want It That Way" by the Backstreet Boys)
-ALBUM NAME: The Essential "Weird Al" Yankovic
-ARTIST(S):  "Weird Al" Yankovic
-HEAR SONG:  https://open.spotify.com/track/1vaico2C72imYowF4Kv04V
-SONG NAME:  I Want It That Way
-ARTIST(S):  Backstreet Boys
+SONG NAME:  Keep On Walking
+ALBUM NAME: Everybody Loves The Sunshine (Reissue)
+ARTIST(S):  Roy Ayers Ubiquity
+HEAR SONG:  https://open.spotify.com/track/62s2MsSeI9GfrxXIULquTm
